@@ -37,6 +37,10 @@ namespace Construction_Jobs
       services.AddScoped<AccountService>();
       services.AddTransient<CompaniesRepository>();
       services.AddTransient<CompaniesService>();
+      services.AddTransient<ContractorsRepository>();
+      services.AddTransient<ContractorsService>();
+      services.AddTransient<JobsRepository>();
+      services.AddTransient<JobsService>();
     }
 
     private void ConfigureCors(IServiceCollection services)

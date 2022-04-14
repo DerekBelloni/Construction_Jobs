@@ -12,4 +12,12 @@ namespace Construction_Jobs.Models
 
 
   }
+
+  public class CompanyViewModel : Company
+  {
+    public int CompanyContractorId { get; set; }
+
+
+
+  }
 }

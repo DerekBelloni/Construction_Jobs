@@ -10,4 +10,18 @@ namespace Construction_Jobs.Models
 
 
   }
+
+  public class ContractorCompanyViewModel : Contractor
+  {
+    public int ContractorCompanyId { get; set; }
+
+    public string CompanyName { get; set; }
+
+    public string CompanyLocation { get; set; }
+
+
+
+
+
+  }
 }

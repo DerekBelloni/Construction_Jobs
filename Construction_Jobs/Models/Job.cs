@@ -1,3 +1,5 @@
+using System;
+
 namespace Construction_Jobs.Models
 {
 
@@ -9,6 +11,9 @@ namespace Construction_Jobs.Models
     public int ContractorId { get; set; }
 
     public int CompanyId { get; set; }
+
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
 
 
   }
